@@ -1,0 +1,544 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+/* this is for my first navbar */
+
+nav.firstbar-mobile{
+    display: none;
+}
+
+
+.firstbar{
+height: 70px;
+width: 100%;
+font-size: 14px;
+
+}
+.country-select{
+    margin-right: 60px;
+    box-sizing: border-box;
+    border: 1px solid #cbcacb;
+    border-radius: 20px;
+    padding: 8px 10px;
+    cursor: pointer;
+    line-height: 0;
+    display: block;
+
+    
+}
+
+nav.menubar {
+    display: none;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+
+.second-colour {
+    background-color: #dfc9c9;
+}
+
+.second-colour h1 {
+    font-weight: bold; 
+    font-size: 50px; 
+    margin-right: -50px;
+}
+
+
+.second-colour h5 {
+    justify-content: space-around; 
+    font-weight: bold; 
+    color: #696669; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-size: 1.5em sans-serif;
+}
+
+/* for my sticky navbar */
+
+.sticky-top {
+    height: 70px;
+    width: 100%;
+    font-size: 15px;
+    background-color: rgb(222, 234, 234) !important;
+    transition: all 5s ease-in-out;
+   
+}
+
+div.sticky-mobile {
+    display: none;
+}
+
+
+
+input[type=text]{
+    width: 500px;
+    text-indent: 20px;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    height: 50px;
+    padding: 30px 0;
+    
+}
+
+.search-icon {
+    position: absolute; 
+    top: 64.5%; 
+    left: 39%; 
+    color: #000; 
+    font-size: 20px;
+}
+
+label{
+    font-weight: bold; 
+    padding: 10px 0;
+}
+
+
+.image img {
+    width: 280px;
+    height: 34vh;
+   
+}
+
+.Popular-images {
+justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+margin-right: 35px;
+margin-left: -15px;
+}
+
+
+.image-text{
+    font: 15px;
+}
+
+h3  {
+    font-size: small;
+}
+
+
+div.products a{
+    margin-left: 850px; 
+    color: #d77f81;
+}
+
+.Popular-products{
+    margin-left: 70px;
+}
+
+.Popular-products a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+
+
+}
+.Popular-products p{
+    color: #708095;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+h4 span {
+    color: #708095;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+/* this is for my categories */
+
+div.categories a{
+    /* margin-left: 0px;  */
+    color: white;
+}
+div.category-all a{
+    margin-left: 830px;
+}
+
+.Popular-categories a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+   
+
+}
+
+.Popular-images a{
+    background-color: #d77f81;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+
+.Popular-categories{
+    margin-left: 80px;
+}
+
+
+.Popular-categories p {
+    color: #708095;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.categories-image a{
+    background-color: #d77f81;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 200px;
+}
+
+h4.amount{
+
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.products{
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.categories{
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.categories-image{
+    justify-content: space-between;
+    display: flex;
+   
+}
+
+.greetings-cards {
+    margin-left: -20px;
+    margin-right: -600px;
+}
+
+div.Stick{
+    margin-right: 690px;
+}
+
+
+
+.image-text {
+    box-sizing: border-box;
+    border-width: 0.2px;
+    border-style: solid;
+    /* border-color: #708095; */
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-color: rgb(229, 231, 235);
+
+  
+  
+}
+
+.nigeria-online-shop{
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.nigeria-online-shop h3{
+   color:  #384a62;
+    
+}
+
+
+.customer {
+    padding-top: 0px;
+    background-color: #edf6fd; 
+}
+
+.customer a{
+    text-decoration: none;
+}
+
+.customer span{
+
+margin: 20px;
+margin-top: 40px;
+padding-top: 40px;
+
+}
+
+.customer-flex{
+  
+    padding: 60px 0;
+}
+
+.twitter-text {
+    margin: 0 60px;
+}
+
+.tweet i{
+    padding: 5px;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 20px;
+    color:rgba(59,130,246,0.5);
+    margin-top: 20px;
+   
+}
+
+
+/* this is for you can count on us here  */
+
+.count-on-us{
+    height: 50vh;
+    padding: 20px;
+}
+
+
+.count p{
+    font-size: 15px;
+    color: #577191;
+}
+
+.service{
+    padding-right: 200px;
+}
+
+.amazing-work{
+    background-color: whitesmoke;
+    height: 40vh;
+    padding: 20px;
+}
+
+.amazing-work h2{
+    margin-left: 35px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #374658;
+}
+
+.amazing {
+    margin-left: 43px;
+}
+
+.amazing a{
+    font-size: 15px;
+    color: #577191;
+    font-weight: bold;
+}
+
+.tech {
+    padding-right: 90px;
+   
+    
+}
+
+
+/* this is for my footer */
+
+footer{
+  height: 60vh;
+  padding: 40px 20px;
+}
+
+.footer-flex{
+    margin-left: 43px;
+}
+
+
+.foot {
+padding-right: 90px;
+}
+
+.foot ul li a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot ul li {
+    margin: 10px;
+    margin-left: -30px;
+}
+
+.foot h4 {
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+/* this is for my mobile responsiveness */
+
+@media (min-width:400px) and (max-width:670px) {
+    .menu{display: block;}
+
+
+nav.firstbar-mobile{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+nav.firstbar {
+    display: none;
+}
+
+div.sticky-mobile {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: white;
+    position: -webkit-sticky;
+    
+    
+}
+
+div.second-navbar{
+    display: none;
+}
+
+nav.menubar {
+    display: block;
+}
+
+.second-colour{
+    margin-top: -80px;
+    background-color: wheat;
+    padding-bottom: 30px;
+}
+
+.second-colour h1 {
+    font-weight: bold; 
+    font-size: 30px; 
+    margin-left: -30px;
+}
+
+.second-colour h5 {
+   margin-left: -30px;
+
+}
+
+.hand-image {
+    display: none;
+}
+
+label {
+    margin-left: -30px;
+}
+
+
+input[type=text]{
+    width: 400px;
+    
+}
+
+.search-input {
+    margin-left: -30px;
+}
+
+
+
+.search-icon{
+    position: absolute; 
+    top: 70.5%; 
+    left: 85%; 
+    color: #000; 
+    font-size: 20px;
+}
+
+
+.image img {
+    width: 390px;
+    height: 40vh;
+    margin-left: 10px;
+   
+}
+
+.Popular-products{
+  margin-left: 40px;  
+
+}
+
+
+div.products a{
+    margin-left: 90px; 
+    color: #d77f81;
+}
+
+div.categories a{
+    margin-left: 90px; 
+    color: #d77f81;
+}
+
+.Popular-categories{
+    margin-left: 30px;
+}
+
+.categories-image{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.greetings-cards {
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.Stick{
+    margin-left: -70px;
+}
+
+.card{
+    margin-left: 10px;
+}
+
+.nigeria-online-shop{
+margin-left: 30px;
+}
+
+
+div.group-image img{
+    width: 100%;
+    margin-left: 4px;
+}
+
+
+
+.customer-flex{
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+}
