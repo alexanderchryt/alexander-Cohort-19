@@ -1,0 +1,114 @@
+
+body{
+    background-color: rgb(255, 254, 254);
+    padding: 100px 280px;
+    margin-top: 50px;
+}
+h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding-bottom: 30px;
+    color: #484848e9;
+}
+h2{
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+hr{
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.hr2{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.flex-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.butontoflex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex4{
+    display: flex;
+}
+.form-2 {
+    background-color: #fff;
+    padding: 20px;
+    border: none;
+    width: 60%;
+}
+.value{
+    border: none;
+    appearance: none;
+    font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul li{
+    list-style: none;
+    border-left: 5px solid;
+    border-color: gainsboro;
+    margin-left: -30px;
+    padding-left: 30px;
+}
+.fa-solid{
+    color: red;
+}
+.card{
+    appearance: none;
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 190px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 30px;
+}
+.form-21 img{
+    margin: auto;
+    margin-right: 20px;
+    width: 100%;
+    padding-top: 30px
+}
+.form-21{
+    border-color: red;
+    border:02px solid gainsboro;
+    padding: 10px 90px;
+    margin-top: 80px;
+    width: 55%;
+}
+p{
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+
+
+}
+
+button {
+    width: 70%;
+    padding: 20px;
+    margin-left: 50px;
+    background-color:rgb(205, 76, 53);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
